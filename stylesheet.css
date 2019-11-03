@@ -24,8 +24,7 @@ body {
     background-color: black;
     color: white;
     font-size: 18px;
-    width: 15vw;
-    height: 5vh;
+    padding: 1vh 2vw;
 }
 
 .viewMap:hover {
