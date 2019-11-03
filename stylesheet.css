@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:700&display=swap');
+
+* {
+    font-family: 'Lato', sans-serif;
+}
+
+/* https://library.rit.edu/archives/downtown-campus-map-1957 */
+body {
+    background-image: url("/images/oldMap.jpg")
+}
+
+.row {
+    background-color: rgba(255, 255, 255, 0.97);
+    height: 94vh;
+}
+
+.aboutPara {
+    text-align: left;
+    font-size: 18px;
+}
+
+.viewMap {
+    border: none;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    width: 15vw;
+    height: 5vh;
+}
+
+.viewMap:hover {
+    background-color: darkgray;
+    color: black;
+}
+
+@media (max-width: 325px) {
+    .row {
+        height: 100%;
+    }
+}
