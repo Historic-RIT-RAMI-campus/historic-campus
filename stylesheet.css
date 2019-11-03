@@ -32,6 +32,14 @@ body {
     color: black;
 }
 
+.building {
+    text-align: left;
+}
+
+.buildingInfo {
+    margin-left: 2.5vw;
+}
+
 @media (max-width: 325px) {
     .row {
         height: 100%;
