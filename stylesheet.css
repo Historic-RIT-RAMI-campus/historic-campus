@@ -6,7 +6,7 @@
 
 /* https://library.rit.edu/archives/downtown-campus-map-1957 */
 body {
-    background-image: url("./historic-campus/images/oldMap.jpg")
+    background-image: url("./images/oldMap.jpg")
 }
 
 .row {
