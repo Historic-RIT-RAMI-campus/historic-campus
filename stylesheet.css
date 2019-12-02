@@ -45,3 +45,16 @@ body {
         height: 100%;
     }
 }
+
+#aboutContent {
+    height: 100vh;
+    margin: 0 10vw 0 0;
+    background-color: rgba(255, 255, 255, 0.95);
+    position: absolute;
+    overflow-y: scroll;
+}
+
+::-webkit-scrollbar {
+    width: 0px;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
